@@ -23,8 +23,8 @@
 -Position minimized pop relative to existing previously minimized (var popcount)<br>
 -Add tags to search by NPI and providers<br>
 -Add tags to filter by location+specialty combinations (e.g. "chico, cardiology")<br>
+--Add "report inaccuracy" option on right click (DOM element path on click?)<br>
 -Make Preferences header less ugly<br>
--Clean up CSS<br>
 
 <h3>Long-Term</h3>
 
@@ -34,8 +34,8 @@
 -Use supabase for easy user auth backend? and to host db? or self-host?<br>
 -Add user input. allow users to add notes in provider pop, add table rows (input form -> string interpolation)<br>
 -Complete preferences menu<br>
--Add "report inaccuracy" option<br>
--Add preference toggle for right click to copy<br>
--Add print from full screen<br>
+-Add print option from full screen?<br> 
+-Maybe revise full screen view as a whole<br>
 -"Embed" NPI DB search (input from user -> load link containing input)<br>
+-Clean up CSS<br>
 -Minify<br>
