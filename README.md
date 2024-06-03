@@ -2,7 +2,7 @@
 
 <h2>06/03/2024</h2>
 
--Live.
+-Fixed prefs menu bug where clicking bars to open -> clicking bars to close ->clicking menu area would reopen menu
 
 <h2>Planned Changes</h2>
 
@@ -14,7 +14,6 @@
 -Use this.closest selectors for button scripts<br>
 -Set popup scrollbar width to auto/none on expand/full/collapse<br>
 -Fix notes width on normal/full/mini. align collapse button with notes. move button up 1px<br>
--Fix prefs menu bug. Click bars to open -> click bars to close -> click menu area reopens menu<br>
 -Increase divtable header font size on full. <br>
 -Ensure consistent font scaling with/between popup states<br>
 -On minimize: collapse all expanded, scrolltop 0, remove active<br>
