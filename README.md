@@ -1,4 +1,4 @@
-<h2>Changelog/h2>
+<h2>Changelog</h2>
 
 <h3>06/03/2024</h3>
 
