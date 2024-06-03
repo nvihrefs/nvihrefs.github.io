@@ -1,6 +1,6 @@
-<h2>Changelog</h2>
+<h1>Changelog</h1>
 
-<h3>06/03/2024</h3>
+<h2>06/03/2024</h2>
 
 -Live.
 
