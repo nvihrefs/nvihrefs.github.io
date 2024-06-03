@@ -38,5 +38,6 @@
 -Add print option from full screen?<br> 
 -Maybe revise full screen view as a whole<br>
 -"Embed" NPI DB search (input from user -> load link containing input)<br>
+-Recently Added Entries pane<br>
 -Clean up CSS<br>
 -Minify<br>
