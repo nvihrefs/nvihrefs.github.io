@@ -23,7 +23,7 @@
 -Add if hotkeys == 1 to on F, on E, on Z pop scripts<br>
 -Position minimized pop relative to existing previously minimized (var popcount)<br>
 -Add tags to search by NPI and providers<br>
--Add tags to filter by location+specialty combinations (e.g. "chico, cardiology")
+-Add tags to filter by location+specialty combinations (e.g. "chico, cardiology")<br>
 -Make Preferences header less ugly<br>
 -Clean up CSS<br>
 
