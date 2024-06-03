@@ -2,14 +2,15 @@
 
 <h2>06/03/2024</h2>
 
--Fixed prefs menu bug where clicking bars to open -> clicking bars to close ->clicking menu area would reopen menu
+-Fixed prefs menu bug where clicking bars to open -> clicking bars to close ->clicking menu area would reopen menu<br>
+-Added specialty providers: Enloe, Glenn Medical Center, Adventist Health Feather River<br>
 
 <h2>Planned Changes</h2>
 
 <h3>Short-Term</h3>
 
 -Add and update specialty provider info from old spreadsheet<br>
--Add imaging, labs, dentistry<br>
+-Add imaging, labs, home health, pharmacies, dentistry, pediatrics<br>
 -Update popup button scripts to match f and z (exp/col button changes, text scaling)<br>
 -Use this.closest selectors for button scripts<br>
 -Set popup scrollbar width to auto/none on expand/full/collapse<br>
