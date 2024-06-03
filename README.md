@@ -29,9 +29,9 @@
 
 <h3>Long-Term</h3>
 
--Migrate data to SQL
+-Migrate data to SQL<br>
 -Add cookies/sessions to save user preferences<br>
--Add user logins
+-Add user logins<br>
 -Use supabase for easy user auth backend? and to host db? or self-host?<br>
 -Add user input. allow users to add notes in provider pop, add table rows (input form -> string interpolation)<br>
 -Complete preferences menu<br>
