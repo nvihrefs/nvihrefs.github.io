@@ -3,7 +3,7 @@
 <h2>06/03/2024</h2>
 
 -Fixed prefs menu bug where clicking bars to open -> clicking bars to close ->clicking menu area would reopen menu<br>
--Added specialty providers: Enloe, Glenn Medical Center, Adventist Health Feather River<br>
+-Added specialty providers: Enloe, Glenn Medical Center, Adventist Health Feather River, most of Oroville Hospital, most of Dove's Landing<br>
 
 <h2>Planned Changes</h2>
 
