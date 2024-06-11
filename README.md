@@ -23,19 +23,19 @@
 
 <h3>Long-Term</h3>
 <ul>
-<li>Migrate data to SQL
-<li>Add cookies/sessions to save user preferences
-<li>Add user logins
-<li>Use supabase for easy user auth backend? and to host db? or self-host?
-<li>Add user input. allow users to add notes in provider pop, add table rows (input form -> string interpolation)
-<li>Complete preferences menu
-<li>Add print option from full screen?
-<li>Maybe revise full screen view as a whole
-<li>Position minimized pop relative to existing previously minimized (var popcount)
-<li>Add "report inaccuracy" option on right click? (DOM element path on click?)
-<li>"Embed" NPI DB search (input from user -> load link containing input)
-<li>Recently Added Entries pane
-<li>Clean up CSS
+<li>Move data to SQL</li>
+<li>Add cookies/sessions to save user preferences</li>
+<li>Add user logins</li>
+<li>Use supabase for easy user auth backend? and to host db? or self-host?</li>
+<li>Add user input. allow users to add notes in provider pop, add table rows (input form -> string interpolation)</li>
+<li>Complete preferences menu</li>
+<li>Add print option from full screen?</li>
+<li>Maybe revise full screen view as a whole</li>
+<li>Position minimized pop relative to existing previously minimized (var popcount)</li>
+<li>Add "report inaccuracy" option on right click? (DOM element path on click?)</li>
+<li>"Embed" NPI DB search (input from user -> load link containing input)</li>
+<li>Recently Added Entries pane</li>
+<li>Clean up CSS</li>
 </ul>
 
 <h2>Changelog</h2>
