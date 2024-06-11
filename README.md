@@ -12,6 +12,7 @@
 <li>Set popup scrollbar width to auto/none on expand/full/collapse</li>
 <li>Overflow scroll on fullscreen , hidden on non-full</li>
 <li>Fix notes width on normal/full/mini. align collapse button with notes. move button up 1px</li>
+<li>Make copied text popup circle x smaller</li>
 <li>Increase divtable header font size on full.</li>
 <li>Ensure consistent font scaling with/between popup states</li>
 <li>On minimize: collapse all expanded, scrolltop 0, remove active</li>
