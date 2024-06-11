@@ -125,6 +125,7 @@ Added entries:
 <li>Valley Medical Imaging</li>
 <li>Valley Women's Imaging</li>
 </ul>
+</ul>
 
 <h3>06/03/2024</h3>
 Fixes/changes:
