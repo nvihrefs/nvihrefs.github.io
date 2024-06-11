@@ -5,6 +5,7 @@
 <h3>Short-Term</h3>
 <ul>
 <li>Add and update all specialty provider info from old spreadsheet</li>
+<li>Add tags to filter by specialty+location+insurance combinations (e.g. "cardiology chico medicare")</li>
 <li>Add imaging, labs, home health, pharmacies, dentistry, pediatrics</li>
 <li>Update popup button scripts to match f and z (exp/col button changes, text scaling)</li>
 <li>Use this.closest selectors for button scripts</li>
@@ -17,8 +18,6 @@
 <li>Add .select when disabling copy click</li>
 <li>Add if hotkeys == 1 to on F, on E, on Z pop scripts</li>
 <li>Add tags to search by NPI and providers</li>
-<li>Add tags to filter by location+specialty combinations (e.g. "chico, cardiology")</li>
-<li>Make Preferences header less ugly</li>
 </ul>
 
 <h3>Long-Term</h3>
@@ -82,6 +81,7 @@ Added entries:
 <li>First Care Medical Associates (2 entries)</li>
 <li>Glenn Medical Center (7 entries)</li>
 <li>Healthy U Physical Therapy</li>
+<li>Heart and Vascular Centers of America</li>
 <li>Hodari MD & Rejuvene</li>
 <li>Innovative Sleep Centers (3 entries)</li>
 <li>Interventional Pain Solutions</li>
