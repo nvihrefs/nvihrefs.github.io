@@ -40,10 +40,11 @@
 <h2>Changelog</h2>
 
 <h3>06/17/2024</h3>
+New feature:
 <li>Added search tags to filter specialty results by location and primary insurance using syntax "specialty city insurance", or "specialty county insurance", or "specialty insurance".</li>
 
 <h3>06/10/2024</h3>
-Fixes/changes:
+Bug fixes:
 <ul>
 <li>Popup header text will no longer overflow into buttons (Added container for header text)</li>
 <li>Show/hide all button and hotkeys no longer hide/show Notes field (Added notes0 class)</li>
@@ -51,7 +52,7 @@ Fixes/changes:
 <li>Popups are now slightly wider</li>
 <li>Closing a popup now fully restores it to its original size, position, and unexpanded state.
 </ul>
-Added entries:
+New entries:
 <ul>
 <li>Added entries for medical providers:</li>
 <ul>
