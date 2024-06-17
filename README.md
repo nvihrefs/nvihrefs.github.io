@@ -56,7 +56,7 @@ Bug fixes:
 </ul>
 New entries:
 <ul>
-<li>Added entries for medical providers:</li>
+<li>Medical providers:</li>
 <ul>
 <li>Advanced Pain Diagnostic and Solutions</li>
 <li>Adventist Health Feather River and Telehealth (14 entries)</li>
@@ -119,7 +119,7 @@ New entries:
 <li>Valponi and Wagner</li>
 </ul>
 
-<li>Added entries for imaging:</li>
+<li>Imaging/Labs:</li>
 <ul>
 <li>Adventist Health Feather River Lab and Medical Imaging</li>
 <li>Enloe Advanced Imaging</li>
@@ -133,11 +133,11 @@ New entries:
 </ul>
 
 <h3>06/03/2024</h3>
-Fixes/changes:
+Bug fixes:
 <ul>
 <li>Clicking in preferences menu area after opening and then closing menu no longer reopens menu.</li>
 </ul>
-Added providers:
+New entries:
 <ul>
 <li>Added specialty providers: Enloe, Glenn Medical Center, Adventist Health Feather River, most of Oroville Hospital, most of Dove's Landing</li>
 </ul>
