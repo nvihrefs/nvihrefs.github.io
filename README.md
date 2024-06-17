@@ -5,7 +5,6 @@
 <h3>Short-Term</h3>
 <ul>
 <li>Add and update all specialty provider info from old spreadsheet</li>
-<li>Add tags to filter by specialty+location+insurance combinations (e.g. "cardiology chico medicare")</li>
 <li>Add imaging, labs, home health, pharmacies, dentistry, pediatrics</li>
 <li>Update popup button scripts to match f and z (exp/col button changes, text scaling)</li>
 <li>Use this.closest selectors for button scripts</li>
@@ -39,6 +38,9 @@
 </ul>
 
 <h2>Changelog</h2>
+
+<h3>06/17/2024</h3>
+<li>Added search tags to filter specialty results by location and primary insurance using syntax "specialty city insurance", or "specialty county insurance", or "specialty insurance".</li>
 
 <h3>06/10/2024</h3>
 Fixes/changes:
