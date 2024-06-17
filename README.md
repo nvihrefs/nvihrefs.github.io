@@ -41,7 +41,9 @@
 
 <h3>06/17/2024</h3>
 New feature:
+<ul>
 <li>Added search tags to filter specialty results by location and primary insurance using syntax "specialty city insurance", or "specialty county insurance", or "specialty insurance".</li>
+</ul>
 
 <h3>06/10/2024</h3>
 Bug fixes:
