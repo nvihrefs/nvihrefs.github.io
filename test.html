@@ -13,9 +13,6 @@
       font-family: open sans;
       user-select: none;
       }
-      .93 {
-      background: #939393;
-      }
       .nvihbutton {
       background: #C1C1C1;
       border: 0;
@@ -30,9 +27,6 @@
       background: #588574;
       color: #fff;
       }
-      }
-      .a3 {
-      background: #A3A3A3
       }
       .black {
       color: #000;
@@ -310,18 +304,8 @@
       ul, li {
       font-weight: 600;
       }
-      #container_buttons_prefs {
-      margin: 0 auto;
-      background: #848484;
-      height: 14rem;
-      width: 14.25rem;
-      padding: 0.25rem;
-      border-radius: 5px 5px 5px 5px;
-      transition-duration: 0.2s;
-      -webkit-transition-duration: 0.2s;
-      }
       ul {
-      background: #B2B2B2;
+      background: #A3A3A3;
       margin: 0.25rem;
       text-align: left;
       color: black;
@@ -330,6 +314,9 @@
       padding-bottom: 0.313rem;
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
       }
+	  li {
+	  line-height: 1.5;
+	  }
       #settingsmenu {
       z-index: 4;
       position: relative;
@@ -338,10 +325,10 @@
       text-align: center;
       line-height: 1.875rem;
       }
-      #container_buttons_prefs {
+      .container_buttons_prefs {
       margin: 0 auto;
       background: #848484;
-      height: 14rem;
+      height: auto;
       width: 14.25rem;
       padding: 0.25rem;
       border-radius: 5px 5px 5px 5px;
@@ -688,8 +675,7 @@
       -webkit-transition-duration: 0.2s;
       width: 100%;
       &:hover {
-      background: #A3A3A3;
-      }
+      background: #A3A3A3;}
       }
       .tr_provname_text {
       font-size: 1.313rem;
@@ -709,10 +695,10 @@
       line-height: 1.5;
       }
       .text_pop_m {
-      font-size: 1.125rem;
+      font-size: 1rem;
       font-weight: 600;
       padding: 0.3125rem;
-      color: #000;
+      color: #fff;
       line-height: 1.5;
       }
       .text_pop_s {
@@ -930,8 +916,9 @@
       border: solid 1px #3D3635;
       }
       .notes {
-      margin: 0;
-      background: #C1C1C1;
+      width: 96%;
+      margin: 0 auto;
+      background: #B3B3B3;
       color: #000;
       margin-bottom: 0.625rem;
       padding: 0.3125rem;
@@ -941,7 +928,8 @@
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
       }
       .notes0 {
-      margin: 0;
+      width: 96%;
+      margin: 0 auto;
       background: #A3A3A3;
       color: #000;
       margin-top: 0.625rem;
@@ -950,6 +938,17 @@
       border: solid 1px #929292;
       border-radius: 5px 5px 5px 5px;
       list-style-type: none;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      }
+      .notes1 {
+      width: 14rem;
+      margin: 0 auto;
+      background: #A3A3A3;
+      color: #000;
+	  padding: 0.125rem;
+      border: solid 1px #929292;
+      border-radius: 5px 5px 5px 5px;
+	  list-style-type: disc;
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
       }
       #mask {
@@ -969,6 +968,7 @@
       font-size: 0.625rem;
       font-style: italic;
       text-align: right;
+      opacity: 0%;
       }
       .lastedit {
       position: absolute;
@@ -1462,10 +1462,15 @@
               Insurance Eligibility <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
-          <p style="display:none" class="notes0">
-            <a href="" target="_blank">Inovalon (myABILITY)<br></a>
-            <a href="" target="_blank">Availity</a>
-          </p>
+          <div class="container_buttons_prefs" style="display:none">
+		    <ul>
+		      <li><a href="https://provider.partnershiphp.org/UI/Login.aspx" target="_blank">Partnership</a><br></li>
+              <li><a href="https://providercloud.inovalon.com/Auth/" target="_blank">Inovalon (myABILITY)</a><br></li>
+              <li><a href="https://apps.availity.com/web/onboarding" target="_blank">Availity</a><br></li>
+              <li><a href="https://provider-portal.apps.prd.cammis.medi-cal.ca.gov/login" target="_blank">Medi-Cal</a><br></li>
+              <li><a href="https://provider-portal.apps.prd.cammis.medi-cal.ca.gov/login" target="_blank">California Health and Wellness</a><br></li>
+		    </ul>
+		  </div>
           <div class="labelspace collapse">
             <div class="menu white">
               <i class="fa-brands fa-searchengin" title="NPI Search"></i>
@@ -1482,7 +1487,7 @@
             </div>
           </div>
           <div id="settingsmenu" style="display:none">
-            <div id="container_buttons_prefs">
+            <div class="container_buttons_prefs">
               <button class="button_prefs" id="toggle_copyclick">Copy text under cursor on click<br><span class="enabled">Enabled</span></button><br>
               <button class="button_prefs" id="toggle_ctrlc">Copy text under cursor on Ctrl+C<br><span class="disabled">Disabled</span></button><br>
               <button class="button_prefs" id="toggle_underline">Underline text under cursor<br><span class="disabled">Disabled</span></button><br>
