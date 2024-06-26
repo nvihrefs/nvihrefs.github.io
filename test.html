@@ -306,13 +306,12 @@
       }
       ul {
       background: #A3A3A3;
-      margin: 0.25rem;
       text-align: left;
       color: black;
-      padding-left: 1.25rem;
-      padding-right: 1.25rem;
-      padding-bottom: 0.313rem;
+	  margin: 0.25rem;
+	  padding: 0 2.5rem 0 2.5rem;
       box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	  border-radius: 5px 5px 5px 5px;
       }
 	  li {
 	  line-height: 1.5;
@@ -670,13 +669,19 @@
       }*/
       }
       tr {
-      background: #939393;
       transition-duration: 0.2s;
       -webkit-transition-duration: 0.2s;
       width: 100%;
-      &:hover {
-      background: #A3A3A3;}
+	  &:hover {
+	  background: #A3A3A3;
+	  }
       }
+	  .bg1 {
+	  background: #939393;
+	  }
+	  .bg2 {
+	  background: #A3A3A3;
+	  }
       .tr_provname_text {
       font-size: 1.313rem;
       font-weight: 600;
@@ -1121,8 +1126,12 @@
                   Provider Directory <i class="fa-solid fa-chevron-down"></i>
                 </div>
               </div>
-              <ul style="display:none">
-              </ul>
+              <div style="display:none" class="container_buttons_prefs">
+			  <ul>
+			  <li>hi</li>
+			  <li>ok this works</li>
+			  </ul>
+              </div>
               <div class="labelspace collapse">
                 <div class="subsubmenu black">
                   Forms, Docs, Prior Auth. <i class="fa-solid fa-chevron-down"></i>
@@ -1707,7 +1716,7 @@
     <table>
       <tbody id="tablesearch">
         <!--BEGIN ROW+POP -->
-        <tr id="advpain" ondblclick="openpop('advpain');" class="93" style="display:none">
+        <tr id="advpain" ondblclick="openpop('advpain');" class="bg1" style="display:none">
           <td>
             <span class="tr_provname_text interact" tags="pain management yuba city medi-cal pain management sutter medi-cal pain management medi-cal pain management yuba city medicare pain management sutter medicare pain management medicare pain management yuba city partnership pain management sutter partnership pain management partnership pain management yuba city private pain management sutter private pain management private">Advanced Pain Diagnostic and Solutions</span>
             <span class="specialty">
@@ -2407,7 +2416,7 @@
     </script>
     <script> //COLLAPSE
       $('.trbg').click(function(e) {
-        $(this).closest('tr').toggleClass('93 a3');
+        $(this).closest('tr').toggleClass('bg1 bg2');
       });
     </script>
     <script> //CLOSE POP ON CLICK X
