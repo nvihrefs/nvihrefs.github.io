@@ -1,0 +1,32 @@
+Ctrl+H to find and replace the below tags with the appropriate information. USE CASE-SENSITIVE SEARCH.
+
+-POPID (used to link table entry to popup. users can't see this so doesn't matter what it is as long as all occurrences in ROW+POP match. see other entries for examples.)
+
+-ADDRESS
+
+-FAX
+
+-PHONE
+
+-123NPI
+
+-123TIN
+
+-SPECIALTY
+
+-NOTE1 (notes section in popup)
+
+-SITEURL (direct link to referrals page of website for provider -- https://www.fakedoctor.com/asp/referrals1.html)
+
+-WEBSITE (website url itself -- https://www.fakedoctor.com)
+
+-PROVIDER1 and NPI1 (For provider info in the popups if you want to add. I left a lot of these blank because it became so time-consuming, and providers move too much for this info to stay current. For multiple entries, highlight and then copy/paste the text between and including <div class="divtable_row"> and </div>
+
+
+Also, don't forget to set your check/x-mark indicator. Everything in the MASTER template is set to checks by default.
+
+Checkmarks:
+<i class="fa-solid fa-check"></i>
+
+X-marks
+<i class="fa-solid fa-xmark"></i>
